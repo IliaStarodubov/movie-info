@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.scss";
 import Navbar from "./components/UI/navbar/Navbar";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import FilmItemPage from "./components/pages/FilmItemPage";
 import { IMovie, IQuery } from "./types/types";
 import axios from "axios";
@@ -95,7 +95,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar
         sortGenres={sortGenres}
         handleChangeSort={handleChangeSort}
@@ -147,7 +147,7 @@ function App() {
         />
         <Route path="/film/:kinopoiskId" element={<FilmItemPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
