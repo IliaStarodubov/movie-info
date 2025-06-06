@@ -21,7 +21,7 @@
     "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://iliastarodubov.github.io/movie-info/",
+  "homepage": "https://iliastarodubov.github.io",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
