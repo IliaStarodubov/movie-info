@@ -1,0 +1,27 @@
+.container {
+    background: rgba(212, 212, 212, 0.801);;
+    height: 100vh;
+    .pageBody {
+        padding: 100px 40px 0;
+        margin: 0 auto;
+        max-width: 1400px;
+        background: white;
+        height: 100%;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 23px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 18px;
+        padding: 0 15px;
+        line-height: 23px;
+        color: rgba(0,0,0,.5);
+    }
+}
+
